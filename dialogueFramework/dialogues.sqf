@@ -7,12 +7,12 @@ fancyDialogue_base = [
 
 fancyDialogue_test_1 = [
 	"Joseph",
-	"Another question text goes here.",
-	[["First option for the second question to answer by user", "systemChat 'Works'"], ["Second option for the second question to with music", "playSound 'Track_O_01'"]]
+	"Now we are getting somewhere, what do you want me to show you?",
+	[["Just tell something in chat", "systemChat 'This is what you wanted?'"], ["Play some sound", "playSound 'bobcat_engine_start'"], ["Explode something", "'Bo_GBU12_LGB' createVehicle [2384.09,6079.57,0]"]]
 ];
 
 fancyDialogue_test_start = [
 	"Joseph",
-	"Some question text goes here.",
-	[["First option to answer by user", fancyDialogue_test_1]]
+	"Hello there, now we are going to test some stuff with this new dialogues.",
+	[["Tell me more", fancyDialogue_test_1], ["Leave me alone psycho", ""]]
 ];
