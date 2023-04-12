@@ -1,0 +1,15 @@
+#include "FancyDialogue.h"
+
+class CfgFunctions
+{
+	class ARES
+	{
+		tag = "ARES";
+		class dialogueFramework
+		{
+			file = "dialogueFramework\functions";
+			
+			class fancyDialogue {};
+		};
+	};
+};

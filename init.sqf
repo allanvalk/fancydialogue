@@ -1,0 +1,1 @@
+call compile preprocessFile "dialogueFramework\init.sqf";
