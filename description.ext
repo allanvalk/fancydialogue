@@ -1,4 +1,4 @@
-#include "FancyDialogue.h"
+#include "dialogueFramework\gui\FancyDialogue.h"
 
 class CfgFunctions
 {
