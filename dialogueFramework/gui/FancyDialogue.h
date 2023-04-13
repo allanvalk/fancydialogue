@@ -92,7 +92,7 @@ class FancyDialogue
 			colorText[] = {1,1,1,1};
 			font = "PuristaMedium";
 			maxHistoryDelay = 0;
-			rowHeight = 0;
+			rowHeight = 0.05;
 			sizeEx = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1);
 			soundSelect[] = {"\A3\ui_f\data\sound\RscListbox\soundSelect",0.09,1.0};
 			class ListScrollBar
