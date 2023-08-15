@@ -35,14 +35,15 @@ _ctrlAnswerList ctrlAddEventHandler ["LBSelChanged", {
 	
 	_selectedText = ((FancyDialogueAnswer select _selectedIndex) select 0);
 	_selectedAction = ((FancyDialogueAnswer select _selectedIndex) select 1);
+	_selectedType = ((FancyDialogueAnswer select _selectedIndex) select 2);
 
-	if (typeName _selectedAction != "STRING") then {
+	if (_selectedType) then {
 		playSound "click";
 		systemChat _selectedText;
 		closeDialog 1;
 		FancyDialogueAnswer = nil;
 
-		_selectedAction spawn ARES_fnc_fancyDialogue;
+		call compile _selectedAction spawn ARES_fnc_fancyDialogue;
 	} else {
 		playSound "click";
 		systemChat _selectedText;
