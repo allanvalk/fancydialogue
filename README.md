@@ -1,5 +1,5 @@
 ﻿# Fancy Dialogue
-This framework add a dialogue system to the arma 3 game. 
+This framework adds a dialogue system to the arma 3 game. 
 Dialogues are scalable and can have actions attached to answer choices or next dialogue step.
 ## Setup
 * Download all files and place them in to the mission folder.
