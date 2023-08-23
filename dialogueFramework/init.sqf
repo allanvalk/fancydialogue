@@ -12,7 +12,7 @@ unit_test addAction
 	true, 
 	false, 
 	"", 
-	"true", 
+	"alive unit_test",	//In this line add in condition that the unit_test is alive 
 	50, 
 	false, 
 	"", 
